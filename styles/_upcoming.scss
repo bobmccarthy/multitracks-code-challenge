@@ -1,0 +1,216 @@
+//all the SASS for the section showing in the mock-up. THis is just 1 section of the MultiTracks Live page. I would have more partials for the other sections if I were coding them.
+
+@import 'media-queries';
+@import 'fonts';
+@import 'color-variables';
+
+
+
+//initially setting up the width of the content
+.upcoming{
+  padding: 0 25px 50px 25px;
+  background-color: hsla(0, 0%, 93%, 1);
+  font-family: FreigSanProMed;
+}
+  @media #{$large}{
+    .upcoming{
+      padding: 0 50px 50px 50px;
+    }
+  }
+  @media #{$extra-large}{
+    .upcoming{
+      padding: 0 150px 50px 150px;
+    }
+  }
+.tab{
+  font-family: FreigSanProMed;
+  padding: 30px 0;
+}
+  .tab-title{
+    color: $light-grey;
+  	padding: 15px 0;
+    margin-right: 15px;
+    border-bottom: 2px solid $light-grey;
+    display: inline;
+  }
+  //i would assume that i could set this class mod in the javascript based on which is clicked on
+  .tab-title.active{
+    color: black;
+    border-bottom: 2px solid $light-blue;
+  }
+    @media #{$large}{
+      .tab-title.mod-tab-title:after{
+        content: ' Webinars';
+      }
+    }
+  .tab-line{
+    margin-top: 16px;
+    border: 1px solid $light-grey;
+  }
+
+.entry{
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background-color: white;
+  text-align: center;
+  padding: 15px;
+  margin: 15px 0;
+  overflow: hidden;
+  position: relative;
+}
+  @media #{$large}{
+    .entry{
+      text-align: left;
+      overflow: hidden;
+    }
+  }
+  @media #{$large}{
+    .entry.mod{
+      padding: 20px 15px;
+    }
+  }
+
+  .entry-date{
+    display: block;
+    margin: 0;
+  }
+    @media #{$large}{
+      .entry-date{
+        float: left;
+        width: 50px;
+        text-align: center;
+        margin: 10px;
+        //the transform vertically aligns it
+        -webkit-border-transform: translateY(50%);
+        -moz-border-transform: translateY(50%);
+        transform: translateY(50%);
+      }
+    }
+    @media #{$large}{
+      .entry-date.mod-date{
+        //vertically aligning the first entry date
+        -webkit-border-transform: translateY(120%);
+        -moz-border-transform: translateY(120%);
+        transform: translateY(120%);
+      }
+    }
+  .entry-date-mo{
+    color: $dark-grey;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 16px;
+  }
+    @media #{$large}{
+      .entry-date-mo{
+        font-size: 12px;
+      }
+    }
+  .entry-date-day{
+    font-size: 35px;
+    display: block;
+    font-family: sans-serif;
+  }
+    @media #{$large}{
+      .entry-date-day{
+        font-size: 28px;
+      }
+    }
+  
+  .entry-pic{
+    width: 100%;
+    margin: 15px 0;
+  }
+    @media #{$large}{
+      .entry-pic{
+        width: 17%;
+        float: left;
+        margin: 16px;
+      }
+    }
+    @media #{$large}{
+      .entry-pic.mod{
+        width: 32%;
+        float: left;
+        margin: 10px 20px;
+      }
+    }
+
+  @media #{$large}{
+    .entry-section{
+      margin-top: 16px;
+    }
+    .entry-section.mod{
+      float: left;
+      margin-top: 10px;
+      width: 39%;
+    }
+  }
+  .entry-title{
+    display: block;
+    font-size: 26px;
+    line-height: 35px;
+    padding: 0 5px;
+  }
+  @media #{$large}{
+    .entry-title{
+      font-size: 23px;
+      padding: 0;
+      line-height: inherit;
+    }
+  }
+  .entry-full-date{
+    font-size: 18px;
+    display: block;
+    color: $dark-grey;
+    line-height: 25px;
+  }
+  .entry-about{
+    display: none;
+    clear: right;
+  }
+  .entry-about.recent{
+    display: block;
+    font-size: 16px;
+    padding: 30px 0 80px 0;
+    display: block;
+    color: $dark-grey;
+    line-height: 30px;
+  }
+  @media #{$large}{
+    .entry-about.recent{
+      font-size: 14px;
+      line-height: 16px;
+      padding: 0;
+    }
+  }
+  .button.mod{
+    margin: 35px 0 10px 0;
+    padding: 10px 20px;
+  }
+    @media #{$large}{
+      .button.mod{
+        float: right;
+        font-size: 10px;
+        padding: 8px 16px;
+        margin: 10px 0 30px 0;
+      }
+    }
+  @media #{$large}{
+    .button.mod.more-top{
+      margin-top: -40px;
+    }
+  }
+  //moving button below sibling in HTML
+  .button.mod.less-top{
+    position: absolute;
+    bottom: 20px;
+    margin-left: -50px;
+  }
+    //this query makes it possible to move the button back to above the text that is after it in the HTML
+    @media #{$large}{
+    .button.mod.less-top{
+      position: static;
+    }
+  }

@@ -1,0 +1,31 @@
+//this is the section at the top, below the nav bar but above the content
+
+@import 'fonts';
+@import 'color-variables';
+
+
+//the banner under the navbars
+.title{
+	height: 76px;
+  //it was tough to try and find a color for this because it isn't flat single color. no simple fade either.
+	background-color: hsla(199, 51%, 49%, 1);
+	text-align: center;
+}
+  .title-mic{
+    background: url('../Links/mic.png') no-repeat;
+    height: 40px;
+    width: 40px;
+    background-size: contain;
+    display: inline-block;
+    -webkit-border-transform: translateY(12px);
+  	-moz-border-transform: translateY(12px);
+    transform: translateY(12px);
+  }
+
+	.title-text{
+		line-height: 76px;
+		color: white;
+		font-size: 22px;
+		font-family: FreigSanProMed;
+    -webkit-font-smoothing: antialiased;
+	}

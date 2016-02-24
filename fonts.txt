@@ -1,0 +1,160 @@
+@font-face {
+	font-family: "freightsans_pro";
+	src: url("//multitracks.blob.core.windows.net/public/fonts/freightsans_prolight.eot?#iefix");
+	src: url("//multitracks.blob.core.windows.net/public/fonts/freightsans_prolight.eot?#iefix") format("eot"),
+		 url("//multitracks.blob.core.windows.net/public/fonts/freightsans_prolight.woff") format("woff"),
+		 url("//multitracks.blob.core.windows.net/public/fonts/freightsans_prolight.ttf") format("truetype"),
+		 url("//multitracks.blob.core.windows.net/public/fonts/freightsans_prolight.svg#b2ba0162-460f-4305-a3c9-254e61e94c91") format("svg");
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "freightsans_pro";
+	src: url("//multitracks.blob.core.windows.net/public/fonts/freightsans_prolight_italic.eot?#iefix");
+	src: url("//multitracks.blob.core.windows.net/public/fonts/freightsans_prolight_italic.eot?#iefix") format("eot"),
+		 url("//multitracks.blob.core.windows.net/public/fonts/freightsans_prolight_italic.woff") format("woff"),
+		 url("//multitracks.blob.core.windows.net/public/fonts/freightsans_prolight_italic.ttf") format("truetype"),
+		 url("//multitracks.blob.core.windows.net/public/fonts/freightsans_prolight_italic.svg#dfd9875f-ca68-40a9-9b4c-c462a9c8adaa") format("svg");
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "freightsans_pro";
+	src:url("//multitracks.blob.core.windows.net/public/fonts/freightsans_promedium.eot?#iefix");
+	src:url("//multitracks.blob.core.windows.net/public/fonts/freightsans_promedium.eot?#iefix") format("eot"),
+		url("//multitracks.blob.core.windows.net/public/fonts/freightsans_promedium.woff") format("woff"),
+		url("//multitracks.blob.core.windows.net/public/fonts/freightsans_promedium.ttf") format("truetype"),
+		url("//multitracks.blob.core.windows.net/public/fonts/freightsans_promedium.svg#ef03658e-0cec-4e8e-9a84-623505b25c6f") format("svg");
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "freightsans_pro";
+	src: url("//multitracks.blob.core.windows.net/public/fonts/freightsans_promedium_italic.eot?#iefix");
+	src: url("//multitracks.blob.core.windows.net/public/fonts/freightsans_promedium_italic.eot?#iefix") format("eot"),
+		 url("//multitracks.blob.core.windows.net/public/fonts/freightsans_promedium_italic.woff") format("woff"),
+		 url("//multitracks.blob.core.windows.net/public/fonts/freightsans_promedium_italic.ttf") format("truetype"),
+		 url("//multitracks.blob.core.windows.net/public/fonts/freightsans_promedium_italic.svg#12ef9179-ea91-4ede-92cd-ecd257423445") format("svg");
+	font-weight: 400;
+	font-style: italic;
+}
+
+
+@font-face {
+	font-family: "freightsans_pro";
+	src: url("//multitracks.blob.core.windows.net/public/fonts/freightsans_probook.eot?#iefix");
+	src: url("//multitracks.blob.core.windows.net/public/fonts/freightsans_probook.eot?#iefix") format("eot"),
+		 url("//multitracks.blob.core.windows.net/public/fonts/freightsans_probook.woff") format("woff"),
+		 url("//multitracks.blob.core.windows.net/public/fonts/freightsans_probook.ttf") format("truetype"),
+		 url("//multitracks.blob.core.windows.net/public/fonts/freightsans_probook.svg#b17b3560-ae34-4670-ae12-5604499e1c14") format("svg");
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "freightsans_pro";
+	src: url("//multitracks.blob.core.windows.net/public/fonts/freightsans_probook_italic.eot?#iefix");
+	src: url("//multitracks.blob.core.windows.net/public/fonts/freightsans_probook_italic.eot?#iefix") format("eot"),
+		 url("//multitracks.blob.core.windows.net/public/fonts/freightsans_probook_italic.woff") format("woff"),
+		 url("//multitracks.blob.core.windows.net/public/fonts/freightsans_probook_italic.ttf") format("truetype"),
+		 url("//multitracks.blob.core.windows.net/public/fonts/freightsans_probook_italic.svg#603febe6-e8fa-402a-8a90-99840bc5a03d") format("svg");
+	font-weight: 500;
+	font-style: italic;
+}
+
+
+@font-face {
+	font-family: "freightsans_pro";
+	src: url("//multitracks.blob.core.windows.net/public/fonts/freightsans_prosemibold.eot?#iefix");
+	src: url("//multitracks.blob.core.windows.net/public/fonts/freightsans_prosemibold.eot?#iefix") format("eot"),
+		 url("//multitracks.blob.core.windows.net/public/fonts/freightsans_prosemibold.woff") format("woff"),
+		 url("//multitracks.blob.core.windows.net/public/fonts/freightsans_prosemibold.ttf") format("truetype"),
+		 url("//multitracks.blob.core.windows.net/public/fonts/freightsans_prosemibold.svg#ca102283-f31e-40d2-9f2d-0e7b61d830c8") format("svg");
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "freightsans_pro";
+	src: url("//multitracks.blob.core.windows.net/public/fonts/freightsans_proSBdIt.eot?#iefix");
+	src: url("//multitracks.blob.core.windows.net/public/fonts/freightsans_proSBdIt.eot?#iefix") format("eot"),
+		 url("//multitracks.blob.core.windows.net/public/fonts/freightsans_proSBdIt.woff") format("woff"),
+		 url("//multitracks.blob.core.windows.net/public/fonts/freightsans_proSBdIt.ttf") format("truetype"),
+		 url("//multitracks.blob.core.windows.net/public/fonts/freightsans_proSBdIt.svg#0bcd39cc-5656-46a4-b2dc-d8637515276a") format("svg");
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "freightsans_pro";
+	src: url("//multitracks.blob.core.windows.net/public/fonts/freightsans_probold.eot?#iefix");
+	src: url("//multitracks.blob.core.windows.net/public/fonts/freightsans_probold.eot?#iefix") format("eot"),
+		 url("//multitracks.blob.core.windows.net/public/fonts/freightsans_probold.woff") format("woff"),
+		 url("//multitracks.blob.core.windows.net/public/fonts/freightsans_probold.ttf") format("truetype"),
+		 url("//multitracks.blob.core.windows.net/public/fonts/freightsans_probold.svg#c81ac268-5e87-4ada-8e90-b56123bc6bf5") format("svg");
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "freightsans_pro";
+	src: url("//multitracks.blob.core.windows.net/public/fonts/freightsans_probold_italic.eot");
+	src: url("//multitracks.blob.core.windows.net/public/fonts/freightsans_probold_italic.eot?#iefix") format("embedded-opentype"), url("//multitracks.blob.core.windows.net/public/fonts/freightsans_probold_italic.svg") format("svg"), url("//multitracks.blob.core.windows.net/public/fonts/freightsans_probold_italic.woff") format("woff"), url("//multitracks.blob.core.windows.net/public/fonts/freightsans_probold_italic.ttf") format("truetype");
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "freightsans_pro";
+	src: url("//multitracks.blob.core.windows.net/public/fonts/freightsans_probold_italic.eot?#iefix");
+	src: url("//multitracks.blob.core.windows.net/public/fonts/freightsans_probold_italic.eot?#iefix") format("eot"),
+		 url("//multitracks.blob.core.windows.net/public/fonts/freightsans_probold_italic.woff") format("woff"),
+		 url("//multitracks.blob.core.windows.net/public/fonts/freightsans_probold_italic.ttf") format("truetype"),
+		 url("//multitracks.blob.core.windows.net/public/fonts/freightsans_probold_italic.svg#a1be119c-d9e1-4a69-bfef-3b00456b99c3") format("svg");
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "freightsans_pro";
+	src: url("//multitracks.blob.core.windows.net/public/fonts/freightsans_problack_italic.eot");
+	src: url("//multitracks.blob.core.windows.net/public/fonts/freightsans_problack_italic.eot?#iefix") format("embedded-opentype"), 
+		url("//multitracks.blob.core.windows.net/public/fonts/freightsans_problack_italic.svg") format("svg"), 
+		url("//multitracks.blob.core.windows.net/public/fonts/freightsans_problack_italic.woff") format("woff"), 
+		url("//multitracks.blob.core.windows.net/public/fonts/freightsans_problack_italic.ttf") format("truetype");
+	font-weight: 900;
+	font-style: italic;
+}
+
+
+/* -----------------------------------------------*/
+
+@font-face {
+  font-family: "HelveticaNeue";
+  src: url("//multitracks.blob.core.windows.net/public/fonts/HelveticaNeue.eot?#iefix");
+	src: url("//multitracks.blob.core.windows.net/public/fonts/HelveticaNeue.eot?#iefix") format("eot"),
+		 url("//multitracks.blob.core.windows.net/public/fonts/HelveticaNeue.woff") format("woff"),
+		 url("//multitracks.blob.core.windows.net/public/fonts/HelveticaNeue.ttf") format("truetype"),
+		 url("//multitracks.blob.core.windows.net/public/fonts/HelveticaNeue.svg#da09f1f1-062a-45af-86e1-2bbdb3dd94f9") format("svg");
+}
+
+@font-face {
+  font-family: "HelveticaNeueIt";
+  src: url("//multitracks.blob.core.windows.net/public/fonts/HelveticaNeueIt.eot?#iefix");
+	src: url("//multitracks.blob.core.windows.net/public/fonts/HelveticaNeueIt.eot?#iefix") format("eot"),
+		 url("//multitracks.blob.core.windows.net/public/fonts/HelveticaNeueIt.woff") format("woff"),
+		 url("//multitracks.blob.core.windows.net/public/fonts/HelveticaNeueIt.ttf") format("truetype"),
+		 url("//multitracks.blob.core.windows.net/public/fonts/HelveticaNeueIt.svg#d0697971-6f58-4597-942e-8beabd1adc87") format("svg");
+}
+
+@font-face {
+  font-family: "HelveticaNeue-Bold";
+  src: url("//multitracks.blob.core.windows.net/public/fonts/HelveticaNeue-Bold.eot?#iefix");
+	src: url("//multitracks.blob.core.windows.net/public/fonts/HelveticaNeue-Bold.eot?#iefix") format("eot"),
+		 url("//multitracks.blob.core.windows.net/public/fonts/HelveticaNeue-Bold.woff") format("woff"),
+		 url("//multitracks.blob.core.windows.net/public/fonts/HelveticaNeue-Bold.ttf") format("truetype"),
+		 url("//multitracks.blob.core.windows.net/public/fonts/HelveticaNeue-Bold.svg#f751c8ae-1057-46d9-8d74-62592e002568") format("svg");
+}

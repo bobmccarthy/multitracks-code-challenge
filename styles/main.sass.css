@@ -1,0 +1,363 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.button {
+  border: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background-color: #49b3e4;
+  font-size: 15px;
+  color: white;
+  font-weight: bold; }
+
+@font-face {
+  font-family: 'FreigSanProMed';
+  src: url("../Fonts/FreigSanProMed.otf");
+  font-weight: lighter; }
+
+.navbar {
+  overflow: hidden;
+  font-family: FreigSanProMed; }
+
+@media screen and (min-width: 1200px) {
+  .navbar {
+    padding: 0 100px; } }
+
+.navbar-logo {
+  background: url("/Links/Logo.png") no-repeat;
+  background-size: cover;
+  float: left;
+  height: 67px;
+  width: 67px; }
+
+@media screen and (min-width: 972px) {
+  .navbar-logo {
+    background: url("/Links/Logo-large.png") no-repeat;
+    background-size: contain;
+    width: 340px;
+    height: 80px;
+    margin: 12px 0 -12px 30px; } }
+
+.navbar-hamburger {
+  font-size: 40px;
+  color: #919191;
+  padding: 13px;
+  float: right; }
+
+@media screen and (min-width: 972px) {
+  .navbar-hamburger {
+    display: none; } }
+
+.navbar-list {
+  float: right;
+  display: none; }
+
+@media screen and (min-width: 972px) {
+  .navbar-list {
+    display: block; } }
+
+.navbar-list-link {
+  display: inline;
+  margin: 8px;
+  line-height: 5em;
+  color: #919191;
+  -webkit-font-smoothing: antialiased; }
+
+.navbar-list-link-img {
+  height: 25px;
+  width: 25px;
+  margin: 0 5px -8px 0; }
+
+.navbar-list-link-search {
+  line-height: 24px;
+  margin-right: 38px;
+  width: 180px;
+  border: 2px solid #dbdad6;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px; }
+
+.navbar-lower {
+  background-color: #dbdad6;
+  text-align: right;
+  height: inherit;
+  display: none;
+  font-family: FreigSanProMed; }
+
+@media screen and (min-width: 1200px) {
+  .navbar-lower {
+    padding: 0 100px; } }
+
+@media screen and (min-width: 972px) {
+  .navbar-lower {
+    display: block; } }
+
+.navbar-lower-link {
+  display: inline-block;
+  font-size: 80%;
+  margin: 7px 5px;
+  -webkit-font-smoothing: antialiased; }
+
+.navbar-lower-link:last-child {
+  margin-right: 50px; }
+
+.navbar-lower-link-anchor {
+  text-decoration: none;
+  color: black; }
+
+@font-face {
+  font-family: 'FreigSanProMed';
+  src: url("../Fonts/FreigSanProMed.otf");
+  font-weight: lighter; }
+
+.title {
+  height: 76px;
+  background-color: #3d94bd;
+  text-align: center; }
+
+.title-mic {
+  background: url("../Links/mic.png") no-repeat;
+  height: 40px;
+  width: 40px;
+  background-size: contain;
+  display: inline-block;
+  -webkit-border-transform: translateY(12px);
+  -moz-border-transform: translateY(12px);
+  transform: translateY(12px); }
+
+.title-text {
+  line-height: 76px;
+  color: white;
+  font-size: 22px;
+  font-family: FreigSanProMed;
+  -webkit-font-smoothing: antialiased; }
+
+@font-face {
+  font-family: 'FreigSanProMed';
+  src: url("../Fonts/FreigSanProMed.otf");
+  font-weight: lighter; }
+
+.upcoming {
+  padding: 0 25px 50px 25px;
+  background-color: #ededed;
+  font-family: FreigSanProMed; }
+
+@media screen and (min-width: 972px) {
+  .upcoming {
+    padding: 0 50px 50px 50px; } }
+
+@media screen and (min-width: 1200px) {
+  .upcoming {
+    padding: 0 150px 50px 150px; } }
+
+.tab {
+  font-family: FreigSanProMed;
+  padding: 30px 0; }
+
+.tab-title {
+  color: #dbdad6;
+  padding: 15px 0;
+  margin-right: 15px;
+  border-bottom: 2px solid #dbdad6;
+  display: inline; }
+
+.tab-title.active {
+  color: black;
+  border-bottom: 2px solid #49b3e4; }
+
+@media screen and (min-width: 972px) {
+  .tab-title.mod-tab-title:after {
+    content: ' Webinars'; } }
+
+.tab-line {
+  margin-top: 16px;
+  border: 1px solid #dbdad6; }
+
+.entry {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background-color: white;
+  text-align: center;
+  padding: 15px;
+  margin: 15px 0;
+  overflow: hidden;
+  position: relative; }
+
+@media screen and (min-width: 972px) {
+  .entry {
+    text-align: left;
+    overflow: hidden; } }
+
+@media screen and (min-width: 972px) {
+  .entry.mod {
+    padding: 20px 15px; } }
+
+.entry-date {
+  display: block;
+  margin: 0; }
+
+@media screen and (min-width: 972px) {
+  .entry-date {
+    float: left;
+    width: 50px;
+    text-align: center;
+    margin: 10px;
+    -webkit-border-transform: translateY(50%);
+    -moz-border-transform: translateY(50%);
+    transform: translateY(50%); } }
+
+@media screen and (min-width: 972px) {
+  .entry-date.mod-date {
+    -webkit-border-transform: translateY(120%);
+    -moz-border-transform: translateY(120%);
+    transform: translateY(120%); } }
+
+.entry-date-mo {
+  color: #919191;
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 16px; }
+
+@media screen and (min-width: 972px) {
+  .entry-date-mo {
+    font-size: 12px; } }
+
+.entry-date-day {
+  font-size: 35px;
+  display: block;
+  font-family: sans-serif; }
+
+@media screen and (min-width: 972px) {
+  .entry-date-day {
+    font-size: 28px; } }
+
+.entry-pic {
+  width: 100%;
+  margin: 15px 0; }
+
+@media screen and (min-width: 972px) {
+  .entry-pic {
+    width: 17%;
+    float: left;
+    margin: 16px; } }
+
+@media screen and (min-width: 972px) {
+  .entry-pic.mod {
+    width: 32%;
+    float: left;
+    margin: 10px 20px; } }
+
+@media screen and (min-width: 972px) {
+  .entry-section {
+    margin-top: 16px; }
+  .entry-section.mod {
+    float: left;
+    margin-top: 10px;
+    width: 39%; } }
+
+.entry-title {
+  display: block;
+  font-size: 26px;
+  line-height: 35px;
+  padding: 0 5px; }
+
+@media screen and (min-width: 972px) {
+  .entry-title {
+    font-size: 23px;
+    padding: 0;
+    line-height: inherit; } }
+
+.entry-full-date {
+  font-size: 18px;
+  display: block;
+  color: #919191;
+  line-height: 25px; }
+
+.entry-about {
+  display: none;
+  clear: right; }
+
+.entry-about.recent {
+  display: block;
+  font-size: 16px;
+  padding: 30px 0 80px 0;
+  display: block;
+  color: #919191;
+  line-height: 30px; }
+
+@media screen and (min-width: 972px) {
+  .entry-about.recent {
+    font-size: 14px;
+    line-height: 16px;
+    padding: 0; } }
+
+.button.mod {
+  margin: 35px 0 10px 0;
+  padding: 10px 20px; }
+
+@media screen and (min-width: 972px) {
+  .button.mod {
+    float: right;
+    font-size: 10px;
+    padding: 8px 16px;
+    margin: 10px 0 30px 0; } }
+
+@media screen and (min-width: 972px) {
+  .button.mod.more-top {
+    margin-top: -40px; } }
+
+.button.mod.less-top {
+  position: absolute;
+  bottom: 20px;
+  margin-left: -50px; }
+
+@media screen and (min-width: 972px) {
+  .button.mod.less-top {
+    position: static; } }

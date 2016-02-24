@@ -1,0 +1,15 @@
+//these are things that I know i wanted to be the same throughout
+
+@import 'color-variables';
+
+.button{
+  border: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background-color: $light-blue;
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
+  
+}

@@ -1,0 +1,111 @@
+//all navigation components. The hamburger button cannot be clicked yet, my method would be to use javascript to change the display property value to show the new menu
+
+@import 'media-queries';
+@import 'color-variables';
+@import 'fonts';
+
+.navbar{
+  overflow: hidden;
+  font-family: FreigSanProMed;
+}
+  @media #{$extra-large}{
+    .navbar{
+      padding: 0 100px;
+    }
+  }
+  .navbar-logo{
+    background: url('/Links/Logo.png') no-repeat;
+    background-size: cover;
+    float: left;
+    height: 67px;
+    width: 67px;
+  }
+  //this query loads a new logo with a larger page.
+  @media #{$large}{
+    .navbar-logo{
+      background: url('/Links/Logo-large.png') no-repeat;
+      background-size: contain;
+      width: 340px;
+      height: 80px;
+      margin: 12px 0 -12px 30px;
+    }
+  }
+  .navbar-hamburger{
+    font-size: 40px;
+    color: $dark-grey;
+    padding: 13px;
+    float: right;
+  }
+  //hiding the hamburger on a large screen
+  @media #{$large}{
+    .navbar-hamburger{
+      display: none;
+    }
+  }
+
+  .navbar-list{
+    float: right;
+    display: none;
+  }
+  //showing the nav links on large screen
+  @media #{$large}{
+    .navbar-list{
+      display: block;
+    }
+  }
+    .navbar-list-link{
+      display: inline;
+      margin: 8px;
+      line-height: 5em;
+      color: $dark-grey;
+      -webkit-font-smoothing: antialiased;
+    }
+      .navbar-list-link-img{
+        height: 25px;
+        width: 25px;
+        margin: 0 5px -8px 0;
+      }
+      .navbar-list-link-search{
+        line-height: 24px;
+        margin-right: 38px;
+        width: 180px;
+        border: 2px solid $light-grey;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+      }
+        .navbar-list-link-search-img{
+
+        }
+
+.navbar-lower{
+  background-color: $light-grey;
+  text-align: right;
+  height: inherit;
+  display: none;
+  font-family: FreigSanProMed;
+}
+  @media #{$extra-large}{
+    .navbar-lower{
+      padding: 0 100px;
+    }
+  }
+//displaying the lower navbar on big width
+@media #{$large}{
+    .navbar-lower{
+      display: block;
+    }
+  }
+  .navbar-lower-link{
+    display: inline-block;
+    font-size: 80%;
+    margin: 7px 5px;
+    -webkit-font-smoothing: antialiased;
+  }
+  .navbar-lower-link:last-child{
+    margin-right: 50px;
+  }
+  .navbar-lower-link-anchor{
+    text-decoration: none;
+    color: black;
+  }
